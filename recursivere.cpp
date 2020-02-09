@@ -35,7 +35,7 @@ istream& operator>>(istream&is ,node*&head){
 	return is;
 
 }
-ostream &operator << (ostream& os,node*&head){
+ostream &operator << (ostream& os,node* head){
 	print(head);
 	return os;
 }

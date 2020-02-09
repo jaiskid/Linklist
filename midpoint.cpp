@@ -74,12 +74,12 @@ int midpoint(node*head){
 	}
 	return slow->data;
 }
-int main(){
-	node *head=NULL;
+int main(){ 
 	cin>>head;
 	cout<<head;
 	head=recursivere(head);
 	cout<<head;
+
 	head=reverse(head);
 	cout<<head;
 	cout<<midpoint(head);
