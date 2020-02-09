@@ -26,7 +26,7 @@ node *buildlist(node*&head){
 	}
 }
 void print(node *head){
-	while(head!=NULL){
+	while(head!=NULL){ 
 	cout<<head->data<<" ";
 	head=head->next;
 	}
