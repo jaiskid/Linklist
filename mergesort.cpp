@@ -102,6 +102,19 @@ node* mergesort(node* head){
 	node* c=merge(a,b);
 	return c;
 }
+void insertAtTail(Node *&head, int data) {
+		if(head == NULL) {
+			insertATHead(head, data);
+			return;
+		}
+		Node *temp = head;
+		while(temp->next != NULL) {
+			temp = temp->next;
+		}
+		Node *new_node = new Node(data);
+		temp->next = new_node;
+		return;
+	}
 istream &operator>>(istream &is ,node *&head){
 	buildlist(head);
 	return is;
