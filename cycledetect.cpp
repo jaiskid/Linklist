@@ -84,4 +84,4 @@ int main(){
 	cin>>head;
 	cout<<length(head);
 	cout<<head;
-}
+} 
